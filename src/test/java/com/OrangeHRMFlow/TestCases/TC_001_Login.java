@@ -34,7 +34,7 @@ public class TC_001_Login extends BaseClass {
 			log.info(txterror);
 		}
 		
-		
+		 log.info("enter name");
 		
 		
 		

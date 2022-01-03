@@ -1,0 +1,9 @@
+com\OrangeHRMFlow\Utilities\ReadConfig.class
+com\OrangeHRMFlow\TestCases\TC_001_Myinfo.class
+com\OrangeHRMFlow\TestCases\TC_002_LoginTestData.class
+com\OrangeHRMFlow\Utilities\BaseClass.class
+com\OrangeHRMFlow\Utilities\XLUtils.class
+com\OrangeHRMFlow\PageObjects\Myinfo.class
+com\OrangeHRMFlow\TestCases\TC_001_Login.class
+com\OrangeHRMFlow\PageObjects\LoginPage.class
+com\OrangeHRMFlow\Utilities\Reporting.class

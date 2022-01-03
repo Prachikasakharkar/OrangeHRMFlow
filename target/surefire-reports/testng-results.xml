@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="7" passed="7">
+  <reporter-output>
+  </reporter-output>
+  <suite name="OrangeHRM" duration-ms="122807" started-at="2022-01-03T10:23:25Z" finished-at="2022-01-03T10:25:27Z">
+    <groups>
+    </groups>
+    <test name="OrangeHRM Architecture" duration-ms="122807" started-at="2022-01-03T10:23:25Z" finished-at="2022-01-03T10:25:27Z">
+      <class name="com.OrangeHRMFlow.TestCases.TC_001_Myinfo">
+        <test-method status="PASS" signature="setup(java.lang.String)[pri:0, instance:com.OrangeHRMFlow.TestCases.TC_001_Myinfo@19dfb72a]" name="setup" is-config="true" duration-ms="9131" started-at="2022-01-03T10:23:46Z" finished-at="2022-01-03T10:23:55Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="MyinfoTest()[pri:0, instance:com.OrangeHRMFlow.TestCases.TC_001_Myinfo@19dfb72a]" name="MyinfoTest" duration-ms="46449" started-at="2022-01-03T10:23:55Z" finished-at="2022-01-03T10:24:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- MyinfoTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.OrangeHRMFlow.TestCases.TC_001_Myinfo@19dfb72a]" name="tearDown" is-config="true" duration-ms="993" started-at="2022-01-03T10:24:41Z" finished-at="2022-01-03T10:24:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.OrangeHRMFlow.TestCases.TC_001_Myinfo -->
+      <class name="com.OrangeHRMFlow.TestCases.TC_001_Login">
+        <test-method status="PASS" signature="setup(java.lang.String)[pri:0, instance:com.OrangeHRMFlow.TestCases.TC_001_Login@57829d67]" name="setup" is-config="true" duration-ms="11002" started-at="2022-01-03T10:23:25Z" finished-at="2022-01-03T10:23:36Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="LoginTest()[pri:0, instance:com.OrangeHRMFlow.TestCases.TC_001_Login@57829d67]" name="LoginTest" duration-ms="8779" started-at="2022-01-03T10:23:36Z" finished-at="2022-01-03T10:23:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.OrangeHRMFlow.TestCases.TC_001_Login@57829d67]" name="tearDown" is-config="true" duration-ms="849" started-at="2022-01-03T10:23:45Z" finished-at="2022-01-03T10:23:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.OrangeHRMFlow.TestCases.TC_001_Login -->
+      <class name="com.OrangeHRMFlow.TestCases.TC_002_LoginTestData">
+        <test-method status="PASS" signature="setup(java.lang.String)[pri:0, instance:com.OrangeHRMFlow.TestCases.TC_002_LoginTestData@17c68925]" name="setup" is-config="true" duration-ms="18396" started-at="2022-01-03T10:24:42Z" finished-at="2022-01-03T10:25:01Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="LoginTest(java.lang.String, java.lang.String)[pri:0, instance:com.OrangeHRMFlow.TestCases.TC_002_LoginTestData@17c68925]" name="LoginTest" duration-ms="9034" started-at="2022-01-03T10:25:08Z" data-provider="LoginData" finished-at="2022-01-03T10:25:17Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Admin]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[admin123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginTest -->
+        <test-method status="PASS" signature="LoginTest(java.lang.String, java.lang.String)[pri:0, instance:com.OrangeHRMFlow.TestCases.TC_002_LoginTestData@17c68925]" name="LoginTest" duration-ms="2024" started-at="2022-01-03T10:25:17Z" data-provider="LoginData" finished-at="2022-01-03T10:25:19Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Prachika]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[8983715640]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginTest -->
+        <test-method status="PASS" signature="LoginTest(java.lang.String, java.lang.String)[pri:0, instance:com.OrangeHRMFlow.TestCases.TC_002_LoginTestData@17c68925]" name="LoginTest" duration-ms="1655" started-at="2022-01-03T10:25:19Z" data-provider="LoginData" finished-at="2022-01-03T10:25:21Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Prachi]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Prachi123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginTest -->
+        <test-method status="PASS" signature="LoginTest(java.lang.String, java.lang.String)[pri:0, instance:com.OrangeHRMFlow.TestCases.TC_002_LoginTestData@17c68925]" name="LoginTest" duration-ms="1616" started-at="2022-01-03T10:25:21Z" data-provider="LoginData" finished-at="2022-01-03T10:25:22Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[sonu]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[234456]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginTest -->
+        <test-method status="PASS" signature="LoginTest(java.lang.String, java.lang.String)[pri:0, instance:com.OrangeHRMFlow.TestCases.TC_002_LoginTestData@17c68925]" name="LoginTest" duration-ms="4107" started-at="2022-01-03T10:25:22Z" data-provider="LoginData" finished-at="2022-01-03T10:25:26Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Admin]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[admin123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.OrangeHRMFlow.TestCases.TC_002_LoginTestData@17c68925]" name="tearDown" is-config="true" duration-ms="948" started-at="2022-01-03T10:25:26Z" finished-at="2022-01-03T10:25:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.OrangeHRMFlow.TestCases.TC_002_LoginTestData -->
+    </test> <!-- OrangeHRM Architecture -->
+  </suite> <!-- OrangeHRM -->
+</testng-results>
